@@ -97,7 +97,7 @@ function calculateLargestCategory() {
 
 // Función para añadir un nuevo gasto al sistema
 
-function addExpenseEntry(newEntry) {
-  expenseEntries.push(newEntry);
-  totalExpensesValue += newEntry[1];
+function addExpenseEntry(values) {
+  expenseEntries.push(values);
+  totalExpensesValue += values[1];
 }
